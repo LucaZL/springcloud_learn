@@ -22,12 +22,12 @@ public class MyServiceImpl implements MyService {
 
     @Override
     public String hiName1() {
-        return "hi, port (from environment). name is: " + env.getProperty("user.zl.name");
+        return "hi, (from environment). my name is: " + env.getProperty("user.zl.name");
     }
 
     @Override
     public String hiName2() {
-        return "hi, port (from @value). name is: " + userName;
+        return "hi, (from @value). my name is: " + userName;
     }
 
     @Override
