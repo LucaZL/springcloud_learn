@@ -12,6 +12,6 @@ public class TaskThreadPoolConfig {
     private int maxPoolSize = 50;
     private int keepAliveSeconds = 60;
     private int queueCapacity = 1000;
-    private String threadNamePrefix = "FSH-AsyncTask";
+    private String threadNamePrefix = "ZL-AsyncTask";
 
 }
